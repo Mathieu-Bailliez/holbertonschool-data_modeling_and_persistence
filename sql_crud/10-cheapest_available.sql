@@ -1,5 +1,5 @@
 SELECT title, price
 FROM books
-ORDER BY price ASC
 WHERE STOCK > 0
+ORDER BY price ASC
 LIMIT 4;
